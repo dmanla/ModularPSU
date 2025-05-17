@@ -1,0 +1,214 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4bef1c7d-223e-45cc-b002-ac71b5420af1")
+	(paper "A4")
+	(title_block
+		(title "Modular PSU")
+		(company "DanWave Design")
+		(comment 1 "Design By: Daniel Manla")
+		(comment 2 "Open Hardware")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 116.84 68.58)
+		(end 182.88 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9f997210-7fba-4608-a70b-427e29adbc20)
+	)
+	(rectangle
+		(start 116.84 93.98)
+		(end 182.88 119.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a22a33d8-ae44-4e59-841f-d2b1652e7023)
+	)
+	(text "Power Output Modules"
+		(exclude_from_sim no)
+		(at 155.702 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "07770ebf-fb8c-4a90-bf85-02651a216d28")
+	)
+	(text "Power Input Modules"
+		(exclude_from_sim no)
+		(at 155.702 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "76eaab62-9fa5-423a-8f7a-438aa1fdfe80")
+	)
+	(text_box "Modules intended for receiving and providing power to downstream DC-DC Convesion Modules. This includes receiving power from different sources, including batteries."
+		(exclude_from_sim no)
+		(at 144.78 71.12 0)
+		(size 38.1 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c659b37e-12f2-4e6e-98a2-a411eba41c58")
+	)
+	(text_box "Modules intended for providing power to a device.\n\nThese modules should be capable of attaching to any module provided in the POWR_INPUT section."
+		(exclude_from_sim no)
+		(at 144.78 96.52 0)
+		(size 38.1 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d6bf62a8-0c38-42e4-a6db-9cb652445c35")
+	)
+	(text_box "Module Types"
+		(exclude_from_sim no)
+		(at 116.84 64.77 0)
+		(size 66.04 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "e505f86b-0175-496e-89e4-031dd5055e42")
+	)
+	(sheet
+		(at 116.84 96.52)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "78eae071-522b-4750-abcb-34d665f64673")
+		(property "Sheetname" "POWER_OUTPUT"
+			(at 116.84 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 116.84 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModularPSU"
+				(path "/4bef1c7d-223e-45cc-b002-ac71b5420af1"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 71.12)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8084812e-2ef0-4331-a345-38217d844be2")
+		(property "Sheetname" "PWR_INPUT"
+			(at 116.84 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWR_INPUT.kicad_sch"
+			(at 116.84 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModularPSU"
+				(path "/4bef1c7d-223e-45cc-b002-ac71b5420af1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

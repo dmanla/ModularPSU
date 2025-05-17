@@ -1,0 +1,184 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6a31c4cb-97b2-4b9c-a2d7-f8ff8503f1fc")
+	(paper "A4")
+	(title_block
+		(title "Modular PSU")
+		(company "DanWave Design")
+		(comment 1 "Design By: Daniel Manla")
+		(comment 2 "Open Hardware")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 120.65 66.04)
+		(end 186.69 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3b958f4c-6006-459c-842a-ee5a64fe1e5c)
+	)
+	(rectangle
+		(start 120.65 91.44)
+		(end 186.69 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 960316c9-6c5b-4b1e-8647-95a4da991269)
+	)
+	(text_box "Converts any voltage from 3.3V-28V to 5V. Ideal for battery powered applications.\n\nMAX INPUT: 28V\nMIN INPUT: 3.3V\nOUTPUT: 5V (Up to 8A)"
+		(exclude_from_sim no)
+		(at 148.59 93.98 0)
+		(size 38.1 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "79f26817-7e47-458c-a956-4e8ae24eb446")
+	)
+	(text_box "DC-DC Conversion"
+		(exclude_from_sim no)
+		(at 120.65 62.23 0)
+		(size 66.04 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "cea3dcad-ee50-4c1a-8b31-bd9e01bd8dda")
+	)
+	(text_box "Converts Voltages up to 24V to 3.3V. \n\nMAX INPUT: 24V\nMIN INPUT: 3.3V\nOUTPUT: 3.3V (Up to 4A)"
+		(exclude_from_sim no)
+		(at 148.59 68.58 0)
+		(size 38.1 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f60df77b-be81-4453-8fe8-e5d4c38d64be")
+	)
+	(sheet
+		(at 120.65 68.58)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "808f6f35-dc39-4bfd-a142-fcd2d3c3bcea")
+		(property "Sheetname" "24V_BUCK_TO_3V3"
+			(at 120.65 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "24V_TO_3V3.kicad_sch"
+			(at 120.65 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModularPSU"
+				(path "/4bef1c7d-223e-45cc-b002-ac71b5420af1/78eae071-522b-4750-abcb-34d665f64673"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 93.98)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cbb8041d-47e2-4c22-a315-fd33910b7a8f")
+		(property "Sheetname" "24V_BUCK_BOOST_TO_5V"
+			(at 120.65 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "24V_BUCK_BOOST_TO_5V.kicad_sch"
+			(at 120.65 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModularPSU"
+				(path "/4bef1c7d-223e-45cc-b002-ac71b5420af1/78eae071-522b-4750-abcb-34d665f64673"
+					(page "4")
+				)
+			)
+		)
+	)
+)

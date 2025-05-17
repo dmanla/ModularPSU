@@ -1,0 +1,944 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9ba67d81-ecb1-440f-acc3-1f300aa3c579")
+	(paper "A4")
+	(title_block
+		(title "Modular PSU")
+		(date "2025-05-13")
+		(rev "A1")
+		(company "DanWave Design")
+		(comment 1 "Design By: Daniel Manla")
+		(comment 2 "Open Hardware")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 121.92 91.44)
+		(end 187.96 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 01a54fe7-ef1d-4c3a-8522-2b21c011c975)
+	)
+	(rectangle
+		(start 121.92 55.88)
+		(end 187.96 81.28)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1653a54f-fee9-469e-a760-74d9b4524ed5)
+	)
+	(rectangle
+		(start 194.31 55.88)
+		(end 260.35 81.28)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 276b9a20-b480-43e0-a601-0c9c85edf7ba)
+	)
+	(rectangle
+		(start 121.92 30.48)
+		(end 187.96 55.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2df73c55-35ce-446b-b645-50fdfa042b6e)
+	)
+	(rectangle
+		(start 35.56 59.69)
+		(end 101.6 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2f3a83df-8753-4c6e-a716-84f21e9a9af9)
+	)
+	(rectangle
+		(start 194.31 30.48)
+		(end 260.35 55.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 666b86ed-bd2a-4dec-a4b9-938f741891a8)
+	)
+	(rectangle
+		(start 35.56 85.09)
+		(end 101.6 109.22)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6f92a976-2165-48eb-8d09-4ba77cbccd22)
+	)
+	(rectangle
+		(start 121.92 116.84)
+		(end 187.96 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7aacaf58-fc72-4422-a6fa-5019b4a94fe3)
+	)
+	(rectangle
+		(start 35.56 109.22)
+		(end 101.6 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aa728584-7a88-4256-9edc-1eaee1fbcbca)
+	)
+	(rectangle
+		(start 35.56 34.29)
+		(end 101.6 59.69)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dd5f43a9-6ecf-4529-b873-7fb2105dba20)
+	)
+	(text "Smart Battery Charger"
+		(exclude_from_sim no)
+		(at 233.172 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "025befc4-0f7a-4e73-a31d-3e63dde55ac9")
+	)
+	(text "Basic Battery Charger"
+		(exclude_from_sim no)
+		(at 232.918 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "239d8858-233f-4d54-938d-12a10527c30a")
+	)
+	(text "OBD2 Power"
+		(exclude_from_sim no)
+		(at 69.342 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "42f76116-d6db-4b81-bd18-b699c95959a4")
+	)
+	(text "USB PD 3.0 Power"
+		(exclude_from_sim no)
+		(at 158.75 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4feb1c5d-889c-4971-a3b9-77f57e66538c")
+	)
+	(text "As-Simple-As-Possible Power Input"
+		(exclude_from_sim no)
+		(at 81.534 35.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b900a59-2c82-4b8c-95ca-31d2b0588e15")
+	)
+	(text "Prototyping Breadboard Adapter"
+		(exclude_from_sim no)
+		(at 165.1 93.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7bd2a8bf-5f57-4719-958c-8c2f426248eb")
+	)
+	(text "Solar Power Input"
+		(exclude_from_sim no)
+		(at 72.136 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "88c26037-635c-41a7-a4cf-7e81a3a2f81d")
+	)
+	(text "PSU Module Spacer"
+		(exclude_from_sim no)
+		(at 159.258 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9835e308-d6f1-49b8-b12a-a19b9d5cca7f")
+	)
+	(text "Power-Over-Ethernet Power Input"
+		(exclude_from_sim no)
+		(at 80.01 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6dcf5ee-9cc3-40c5-ba2b-a16ec23adf47")
+	)
+	(text "Basic USB-C Power"
+		(exclude_from_sim no)
+		(at 159.512 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc8f8b1a-e43b-4aaf-9098-6d3d3ae386c7")
+	)
+	(text_box "USB-C Power Input. Configured to sink up to 2A at 5V."
+		(exclude_from_sim no)
+		(at 149.86 33.02 0)
+		(size 38.1 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "33babee2-7bc6-45dc-8e82-c37228bd0381")
+	)
+	(text_box "Provides power from a POE source. Due to the high voltage of POE, a DC-DC Converter is included to convert the voltage to 5V.\n\nAlso provides ethernet -> SPI bridge."
+		(exclude_from_sim no)
+		(at 63.5 62.23 0)
+		(size 38.1 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "35dd4774-ac9c-477c-9f42-e3a0aca36779")
+	)
+	(text_box "Provides a power input to allow a device t oobe attached to a vehicles OBD2 port. Also includes SPI enabled CAN interface controller.\n\nIncludes power supervisor to prevent over-discharge of 12V and 24V vehicle batteries."
+		(exclude_from_sim no)
+		(at 63.5 111.76 0)
+		(size 38.1 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3f391576-19a3-449c-a9ff-14c61e068176")
+	)
+	(text_box "Bridges the output of any module to the power-rail of a typical breadboard."
+		(exclude_from_sim no)
+		(at 149.86 93.98 0)
+		(size 38.1 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "466b483a-b023-490e-b554-286c6f0e9fb0")
+	)
+	(text_box "Passive Utility Modules"
+		(exclude_from_sim no)
+		(at 121.92 87.63 0)
+		(size 66.04 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "66162460-8677-4807-8051-4b5e23f2260a")
+	)
+	(text_box "Due to some modules being 2 units in size rather than 1, it is necessary to provide a spacer in case two modules of different sizes are used. This module also aids in providing fanout through the auxillary power connectors of a neiboring unit."
+		(exclude_from_sim no)
+		(at 149.86 119.38 0)
+		(size 38.1 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6677da0b-0660-486a-983b-ed503da168cd")
+	)
+	(text_box "Provides power from a solar panel. Module is equipped with MPPT to optimize solar applications."
+		(exclude_from_sim no)
+		(at 63.5 87.63 0)
+		(size 38.1 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "726f8f05-2aa5-4d4e-bb4a-8f2b9a096f68")
+	)
+	(text_box "USB Power Input Modules"
+		(exclude_from_sim no)
+		(at 121.92 26.67 0)
+		(size 66.04 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "892dae1e-1bd3-43d1-b26a-ccae4abd303d")
+	)
+	(text_box "Provides a basic linear battery charger. LED's and GPIO are provided to indicate status. Status includes whether charging is occurring and if the input voltage is high enough for charging"
+		(exclude_from_sim no)
+		(at 222.25 59.69 0)
+		(size 38.1 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8efc7c0a-9395-4d8d-9c35-0d0d5372930f")
+	)
+	(text_box "Battery Charging Modules"
+		(exclude_from_sim no)
+		(at 194.31 26.67 0)
+		(size 66.04 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "902af23c-e62a-4b0c-a6c5-24633945f12f")
+	)
+	(text_box "Provides a bidirectional Buck-Boost Convert to enabled sink and source battery applications. Up to 5A of charging. Up to 5S Batteries.\n\nBattery Charger is accessible using I2C."
+		(exclude_from_sim no)
+		(at 222.25 33.02 0)
+		(size 38.1 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9fb9c560-e3eb-4c18-828a-6e3b86ab94f6")
+	)
+	(text_box "USB-C PD 3.1 Power Input using the TPS2575S.\n\nConfiguration of the IC is provided using switches.\n\nUSB-PD Controller is accessible using I2C."
+		(exclude_from_sim no)
+		(at 149.86 58.42 0)
+		(size 38.1 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "aabcadd1-3d2f-4a99-854f-11f6a4bcd744")
+	)
+	(text_box "Provides a barrel-jack input, a switch, and a fuse for providing basic control and protection of the power input.\n\nLED's are provided for debugging the fuse, switch, and barrel-jack input."
+		(exclude_from_sim no)
+		(at 63.5 36.83 0)
+		(size 38.1 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "baf1a9c4-8e1a-4f17-bb9d-649b14d10afa")
+	)
+	(text_box "Miscellaneous Power Input Modules"
+		(exclude_from_sim no)
+		(at 35.56 30.48 0)
+		(size 66.04 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "eacd0991-4120-40cb-b6c3-a64702bd4478")
+	)
+	(sheet
+		(at 121.92 58.42)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01230dd3-917d-4c4c-aa24-32160ff89bc0")
+		(property "Sheetname" "USB_PD_PWR_IN"
+			(at 121.92 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_PD_PWR_IN.kicad_sch"
+			(at 121.92 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModularPSU"
+				(path "/4bef1c7d-223e-45cc-b002-ac71b5420af1/8084812e-2ef0-4331-a345-38217d844be2"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 119.38)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18caab63-24c7-41c4-8958-b6e4e3e42f2b")
+		(property "Sheetname" "Spacer"
+			(at 121.92 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Spacer.kicad_sch"
+			(at 121.92 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModularPSU"
+				(path "/4bef1c7d-223e-45cc-b002-ac71b5420af1/8084812e-2ef0-4331-a345-38217d844be2"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 36.83)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "240451c3-eb42-4494-a2d3-c6cbc835392d")
+		(property "Sheetname" "ASAP_PWR_IN"
+			(at 35.56 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ASAP_PWR_IN.kicad_sch"
+			(at 35.56 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModularPSU"
+				(path "/4bef1c7d-223e-45cc-b002-ac71b5420af1/8084812e-2ef0-4331-a345-38217d844be2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 33.02)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c4c4cf9-ce03-470d-b7e2-7d33d98c2e32")
+		(property "Sheetname" "USB_C_PWR_IN"
+			(at 121.92 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_C_PWR_IN.kicad_sch"
+			(at 121.92 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModularPSU"
+				(path "/4bef1c7d-223e-45cc-b002-ac71b5420af1/8084812e-2ef0-4331-a345-38217d844be2"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.31 59.69)
+		(size 27.94 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a215a7d-89f4-4b0d-bf06-47fa76cf35d4")
+		(property "Sheetname" "ACAP_BATT"
+			(at 194.31 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ASAP_BATT_CHEAP.kicad_sch"
+			(at 194.31 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModularPSU"
+				(path "/4bef1c7d-223e-45cc-b002-ac71b5420af1/8084812e-2ef0-4331-a345-38217d844be2"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 93.98)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4eeda64-be9d-4267-a0b0-2df98a056f31")
+		(property "Sheetname" "BreadBoardAdapter"
+			(at 121.92 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BreadBoardAdapter.kicad_sch"
+			(at 121.92 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModularPSU"
+				(path "/4bef1c7d-223e-45cc-b002-ac71b5420af1/8084812e-2ef0-4331-a345-38217d844be2"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 87.63)
+		(size 27.94 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ccdc67ba-db94-4780-931b-8ae757a447fe")
+		(property "Sheetname" "SOLAR_PWR_IN"
+			(at 35.56 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SOLAR_PWR_IN.kicad_sch"
+			(at 35.56 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModularPSU"
+				(path "/4bef1c7d-223e-45cc-b002-ac71b5420af1/8084812e-2ef0-4331-a345-38217d844be2"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 111.76)
+		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d6fcd76e-f3ce-43e7-9422-8ad4cb644ff0")
+		(property "Sheetname" "OBD2_PWR"
+			(at 35.56 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OBD2_PWR.kicad_sch"
+			(at 35.56 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModularPSU"
+				(path "/4bef1c7d-223e-45cc-b002-ac71b5420af1/8084812e-2ef0-4331-a345-38217d844be2"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 62.23)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb181ea3-243a-432b-a9b7-a6882a9604a8")
+		(property "Sheetname" "POE_PWR_IN"
+			(at 35.56 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POE_PWR_IN.kicad_sch"
+			(at 35.56 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModularPSU"
+				(path "/4bef1c7d-223e-45cc-b002-ac71b5420af1/8084812e-2ef0-4331-a345-38217d844be2"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.31 33.02)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f04da677-f087-41ef-9b13-48dc44e326b4")
+		(property "Sheetname" "ASAP_BATT"
+			(at 194.31 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ASAP_BATT.kicad_sch"
+			(at 194.31 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ModularPSU"
+				(path "/4bef1c7d-223e-45cc-b002-ac71b5420af1/8084812e-2ef0-4331-a345-38217d844be2"
+					(page "10")
+				)
+			)
+		)
+	)
+)
